@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label>Username:
+        <div><input type="text" name="username_2" required /></label></div>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <div>
+            <h4>Preferences</h4>
+            <label><input type="checkbox" name="interest" value="news" /> News</label>
+            <label><input type="checkbox" name="interest" value="updates" /> Updates</label>
+        </div>
+
+        <div>
+            <h4>Device</h4>
+            <label><input type="radio" name="device" value="iphone" /> iPhone</label>
+            <label><input type="radio" name="device" value="android" /> Android</label>
+            <label><input type="radio" name="device" value="oranges" /> Oranges</label>
+
+        </div>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Please provide a comment of less than 50 words"></textarea>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="">Please select</option>
+            <option value="USA">United States</option>
+            <!-- Additional countries -->
+        </select>
+
+        <input 
+         value="Register"/>
+        <button type="reset">Clear</button>
+    </form>
+</body>
+
+</html>

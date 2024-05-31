@@ -1,0 +1,11 @@
+.box-model-example {
+    box-sizing: border-box;
+    background-color: rebeccapurple; /* This will help us visualize space taken up as we change width and height */
+    width: 300px; /* Explicitly sets the width of the content area */
+    height: 150px; /* Explicitly sets the height of the content area */
+    padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  }
